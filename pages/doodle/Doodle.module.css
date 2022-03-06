@@ -1,0 +1,33 @@
+.doodle {
+    background-color: yellow;
+    border-radius: 100%;
+    border: black 1px dotted;
+    width: 80vh;
+    height: 80vh;
+    position: relative;
+}
+
+.eye {
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    border-radius: 100%;
+    border: black 1px dotted;
+    position: absolute;
+    top: 100px;
+}
+
+.left {
+    left: 100px;
+}
+
+.right {
+    right: 100px;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
